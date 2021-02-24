@@ -1,0 +1,43 @@
+1613652779543	geckodriver	INFO	Listening on 127.0.0.1:55080
+1613652782632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilesp659r"
+1613652864212	geckodriver	INFO	Listening on 127.0.0.1:55139
+1613652867286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile4ZWe2D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613652870924	Marionette	INFO	Listening on port 55147
+1613652870991	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613652871018	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613652885413	Marionette	INFO	Stopped listening on port 55147
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613652968679	geckodriver	INFO	Listening on 127.0.0.1:55208
+1613652971786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile7NbgPO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613652975269	Marionette	INFO	Listening on port 55216
+1613652975485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613652975502	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613653000276	Marionette	INFO	Stopped listening on port 55216
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileRmWT2F"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613652995387	Marionette	INFO	Listening on port 55273
+1613652995630	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613652995647	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: http://r78-rc-superset.zdrav.netrika.ru/static/appbuilder/js/jquery-latest.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1613652997732	Marionette	INFO	Stopped listening on port 55273
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
