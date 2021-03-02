@@ -1,5 +1,5 @@
 import pytest
-from selenium.webdriver.common.keys import Keys
+from .pages.login_page import LoginPage
 
 
 user_name = 'Тестовый'
