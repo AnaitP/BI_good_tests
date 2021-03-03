@@ -1,6 +1,5 @@
 import selenium
 import pytest
-from .pages.login_page import LoginPage
 
 password = '123'
 new_login = 'test'
@@ -15,10 +14,11 @@ def setup_class():
     browser.get('http://ss.dev.bnvt.ru/superset/dashboard/179')
 
 @pytest.fixture(scope='session')
-def browser():
-    browser = selenium.webdriver.Chrome()
-    yield browser
-    browser.quit()
+#def browser():
+#    browser = selenium.webdriver.Chrome()
+#    browser.implicitly_wait(10)
+#    yield browser
+#    browser.quit()
 
 
 @pytest.fixture
@@ -33,5 +33,6 @@ def user_login_fix(browser):
     link = "http://r78-rc-superset.zdrav.netrika.ru/"
     page = LoginPage(browser, link)
     page.user_login()
+
     yield page
     page.quit()

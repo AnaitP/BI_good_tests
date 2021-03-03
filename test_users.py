@@ -1,5 +1,6 @@
 import pytest
 from .pages.login_page import LoginPage
+from selenium.webdriver.common.keys import Keys
 
 
 user_name = 'Тестовый'
@@ -14,7 +15,7 @@ new_password = '321'
 
 class TestUserList:
 
-    def test_create_new_user(self, browser, login):
+    def test_create_new_user(self, browser, admin_login_fix):
         browser.get("http://r78-rc-superset.zdrav.netrika.ru/users/list/")
         browser.find_element_by_css_selector('div.panel-body.list-container > span > a > i').click()
         browser.find_element_by_css_selector('#first_name').send_keys(user_name)

@@ -5,7 +5,6 @@ from .locators import LoginPageLocators
 class LoginPage(BasePage):
 
     def admin_login(self):
-
         login_field = self.browser.find_element(*LoginPageLocators.LOGIN_FIELD)
         password_field = self.browser.find_element(*LoginPageLocators.PASSWORD_FIELD)
         login_field.send_keys("admin")

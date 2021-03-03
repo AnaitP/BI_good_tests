@@ -1,5 +1,6 @@
 from .base_page import BasePage
 from .locators import AddUserPageLocators
+from selenium.webdriver.common.keys import Keys
 
 first_name_test = 'Тестовый'
 last_name_test = 'Тест'
