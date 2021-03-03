@@ -17,14 +17,14 @@ new_password = '321'
 
 class TestUserList:
 
-    def test_guest_can_go_to_login_page(self, browser, link):
-       link = "http://r78-rc-superset.zdrav.netrika.ru/"
-       page = MainPage(browser, link)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
-      #  page.open()  # открываем страницу
+    def test_guest_can_go_to_login_page(self, browser, admin_login_fix):
+
+       page = MainPage(browser)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес
+      # page.open()  # открываем страницу
        page.go_to_users_page()
 
 
-  #  def admin_can_add_new_user(self, browser, admin_login_fix):
+   # def admin_can_add_new_user(self, browser, admin_login_fix):
 
 
 

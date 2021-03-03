@@ -25,6 +25,7 @@ def browser():
 def admin_login_fix(browser):
     link = "http://r78-rc-superset.zdrav.netrika.ru/"
     page = LoginPage(browser, link)
+    page.open()
     page.admin_login()
 
 
@@ -32,6 +33,7 @@ def admin_login_fix(browser):
 def user_login_fix(browser):
     link = "http://r78-rc-superset.zdrav.netrika.ru/"
     page = LoginPage(browser, link)
+    page.open()
     page.user_login()
     yield page
     page.quit()
