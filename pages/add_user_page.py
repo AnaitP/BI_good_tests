@@ -19,7 +19,7 @@ class AddUserPage(BasePage):
         last_name = self.browser.find_element(*AddUserPageLocators.LAST_NAME)
         last_name.send_keys(last_name_test)
         user_login = self.browser.find_element(*AddUserPageLocators.USER_LOGIN)
-        user_login.send_keys(user_login)
+        user_login.send_keys(user_login_test)
         active = self.browser.find_element(*AddUserPageLocators.ACTIVE)
         active.click()
         email = self.browser.find_element(*AddUserPageLocators.EMAIL)

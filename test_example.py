@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-@pytest.fixture(scope='class')
+#@pytest.fixture(scope='class')
 def browser():
     browser = webdriver.Chrome()
     browser.get('http://ss.dev.bnvt.ru/')

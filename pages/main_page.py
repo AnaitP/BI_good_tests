@@ -10,3 +10,6 @@ class MainPage(BasePage):
         user_menu_item = self.browser.find_element(*MainPageLocators.USER_MENU_ITEM)
         user_menu_item.click()
 
+    def user_should_see_main_page(self):
+        dashes = self.browser.find_element(*MainPageLocators.TITLE_INFOM_PANEL).text
+        assert dashes == 'Информационные панели'

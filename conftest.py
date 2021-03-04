@@ -1,6 +1,7 @@
 import selenium
 import pytest
 from .pages.login_page import LoginPage
+from .pages.main_page import MainPage
 
 password = '123'
 new_login = 'test'
@@ -29,11 +30,12 @@ def admin_login_fix(browser):
     page.admin_login()
 
 
-@pytest.fixture
-def user_login_fix(browser):
+@pytest.fixture(scope='function')
+def user_window_fix(browser):
+    browser = selenium.webdriver.Chrome()
     link = "http://r78-rc-superset.zdrav.netrika.ru/"
     page = LoginPage(browser, link)
     page.open()
     page.user_login()
     yield page
-    page.quit()
+    page.browser.quit()

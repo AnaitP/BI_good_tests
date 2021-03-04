@@ -14,11 +14,11 @@ class LoginPage(BasePage):
 
     def user_login(self):
 
-        login_field = self.browser.find_element(*LoginPageLocators.LOGIN_FIELD)
-        password_field = self.browser.find_element(*LoginPageLocators.PASSWORD_FIELD)
+        login_field = self.user_browser.find_element(*LoginPageLocators.LOGIN_FIELD)
+        password_field = self.user_browser.find_element(*LoginPageLocators.PASSWORD_FIELD)
         login_field.send_keys("test")
         password_field.send_keys("321")
-        login_button = self.browser.find_element(*LoginPageLocators.LOGIC_BUTTON)
+        login_button = self.user_browser.find_element(*LoginPageLocators.LOGIC_BUTTON)
         login_button.click()
 
 
